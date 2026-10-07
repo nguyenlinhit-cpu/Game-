@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+<defs>
+  <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#ffd46a"/><stop offset="1" stop-color="#e2381c"/>
+  </linearGradient>
+  <mask id="m" maskUnits="userSpaceOnUse" x="0" y="0" width="512" height="512"><path d="M256,472 C178,472 106,416 106,336 C106,270 146,230 138,170 C186,204 202,250 200,290 C206,214 226,128 256,34 C286,128 306,214 312,290 C310,250 326,204 374,170 C366,230 406,270 406,336 C406,416 334,472 256,472 Z" fill="#fff"/><path d="M256,430 C210,430 176,398 176,352 C176,316 196,296 204,262 C226,292 236,314 236,330 C242,292 248,262 256,226 C264,262 270,292 276,330 C276,314 286,292 308,262 C316,296 336,316 336,352 C336,398 302,430 256,430 Z" fill="none" stroke="#000" stroke-width="11"/><polygon points="144.0,92.0 154.0,110.0 144.0,128.0 134.0,110.0" fill="#fff" /><polygon points="372.0,66.0 382.0,84.0 372.0,102.0 362.0,84.0" fill="#fff" /><polygon points="256.0,300.0 304.0,372.0 256.0,436.0 208.0,372.0" fill="#000" /></mask>
+  <filter id="blur" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="9"/></filter>
+</defs>
+<g filter="url(#blur)" opacity="0.55"><rect width="512" height="512" fill="#ff6a2a" mask="url(#m)"/></g>
+<rect width="512" height="512" fill="url(#g)" mask="url(#m)"/>
+<g mask="url(#m)"></g>
+<polygon points="256.0,318.0 290.0,372.0 256.0,418.0 222.0,372.0" fill="#fff3c0" /><polygon points="256.0,318.0 290.0,372.0 256.0,372.0" fill="#ffffff" /><polygon points="256.0,372.0 290.0,372.0 256.0,418.0" fill="#ff9a3c" /><polygon points="222.0,372.0 256.0,372.0 256.0,418.0" fill="#ffc75a" />
+</svg>
